@@ -27,7 +27,7 @@ public class TouchInput : MonoBehaviour {
 			touchesOld = new GameObject[touchList.Count];
 			touchList.CopyTo(touchesOld);
 			touchList.Clear();
-			
+
 
 			Ray ray = GetComponent<Camera>().ScreenPointToRay (Input.mousePosition);
 			
@@ -35,8 +35,6 @@ public class TouchInput : MonoBehaviour {
 			if (Physics.Raycast (ray, out hit, touchInputMask)) {
 				GameObject recipient = hit.transform.gameObject;
 				touchList.Add(recipient);
-
-				//Debug.Log(recipient);
 
 				if (Input.GetMouseButtonDown(0)) {
 					recipient.SendMessage ("onTouchDown", hit.point, SendMessageOptions.DontRequireReceiver);

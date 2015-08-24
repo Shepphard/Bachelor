@@ -25,7 +25,7 @@ public class WaiterComingAnimation : MonoBehaviour {
 			{
 				Color color = this.GetComponent<Renderer>().material.color;
 				color.a += 0.1f*delta;
-				this.GetComponent<Renderer>().material.SetColor(color);
+				//this.GetComponent<Renderer>().material.SetColor(color);
 
 				if(this.GetComponent<Renderer>().material.color.a >= 1.0f)
 				{

@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaiterComingAnimation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Buttons/MessageAnimation.cs">
     <Files>
-      <File FileName="Assets/Scripts/TouchInput.cs" Line="37" Column="30" />
-      <File FileName="Assets/Scripts/Buttons/ButtonTimer.cs" Line="58" Column="82" />
-      <File FileName="Assets/Scripts/Buttons/WaiterButton.cs" Line="58" Column="3" />
-      <File FileName="Assets/Scripts/WaiterComingAnimation.cs" Line="44" Column="4" />
+      <File FileName="Assets/Scripts/Buttons/WaiterButton.cs" Line="8" Column="8" />
+      <File FileName="Assets/Scripts/Buttons/MessageAnimation.cs" Line="28" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

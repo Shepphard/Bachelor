@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Buttons\MessageAnimation.cs" />
      <Compile Include="Assets\Scripts\Buttons\WaiterButton.cs" />
      <Compile Include="Assets\Scripts\TouchInput.cs" />
+     <Compile Include="Assets\Scripts\WelcomeScreen\Initial.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
